@@ -1,6 +1,6 @@
 {
   "name": "Spring Data JPA EntityGraph",
   "tagline": "Spring Data JPA extension allowing full dynamic usage of JPA EntityGraph on repositories",
-  "body": "# Spring Data JPA EntityGraph\r\n\r\nToday, [Spring Data JPA](https://github.com/spring-projects/spring-data-jpa) supports EntityGraph exlusively through annotations.  \r\nThus, for a method, the choice of EntityGraph must be made before compilation.  \r\n\r\nThis extension gives the ability to pass EntityGraph on any Spring Data JPA repository method as an argument, making the EntityGraph choice fully dynamic.\r\n\r\nExample:\r\n```java\r\nproductRepository.findByName(\"foo\", EntityGraphUtils.fromName(\"Product.brand\"));\r\n```\r\n",
+  "body": "# Spring Data JPA EntityGraph\r\n\r\nToday, [Spring Data JPA](https://github.com/spring-projects/spring-data-jpa) supports EntityGraph exlusively through annotations.  \r\nThus, for a method, the choice of EntityGraph must be made before compilation.  \r\n\r\nThis extension gives the ability to pass EntityGraph on any Spring Data JPA repository method as an argument, making the EntityGraph choice fully dynamic.\r\n\r\nExample:\r\n```java\r\nproductRepository.findByName(\"foo\", EntityGraphUtils.fromName(\"Product.brand\"));\r\n```",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
